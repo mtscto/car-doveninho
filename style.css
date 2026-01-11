@@ -108,3 +108,27 @@ footer {
     background-color: #000;
     color: #777;
 }
+
+/* Navbar brand - estado normal */
+.navbar-brand {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+/* Parte em destaque (Motors) */
+.navbar-brand span {
+    color: #d5001c;
+}
+
+/* Hover - mantém legível e elegante */
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* Garante que o span não fique escuro no hover */
+.navbar-brand:hover span,
+.navbar-brand:focus span {
+    color: #d5001c;
+}
