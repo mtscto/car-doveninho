@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doveninho Motors</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Doveninho <span>Motors</span></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#modelos">Modelos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Performance. Design. Emoção.</h1>
+            <p>Carros esportivos e de luxo que unem engenharia de precisão e experiência ao volante.</p>
+            <a href="#modelos" class="btn btn-primary mt-3">Conheça os modelos</a>
+        </div>
+    </section>
+
+    <section id="modelos" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Modelos em Destaque</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="car-card">
+                        <img src="https://images.unsplash.com/photo-1619682817481-e994891cd1f5" alt="Carro esportivo">
+                        <div class="p-3">
+                            <h5>Doveninho GT</h5>
+                            <p class="text-muted">450cv · 0–100km/h em 3.5s</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="car-card">
+                        <img src="https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9" alt="Carro esportivo">
+                        <div class="p-3">
+                            <h5>Doveninho S</h5>
+                            <p class="text-muted">510cv · Tração integral</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="car-card">
+                        <img src="https://images.unsplash.com/photo-1607853202273-797f1c22a38e" alt="Carro esportivo">
+                        <div class="p-3">
+                            <h5>Doveninho Turbo</h5>
+                            <p class="text-muted">580cv · Performance extrema</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="section-title">Nossa Filosofia</h2>
+                    <p>Inspirados pela excelência alemã, criamos experiências automotivas focadas em performance,
+                        inovação e design atemporal.</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid rounded" src="https://images.unsplash.com/photo-1519642918688-7e43b19245d8"
+                        alt="Interior esportivo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Entre em Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input class="form-control" type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" type="email" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Mensagem"></textarea>
+                        </div>
+                        <button class="btn btn-primary w-100">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center">
+        <p>© 2026 Doveninho Motors · Performance em primeiro lugar</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
